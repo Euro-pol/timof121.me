@@ -27,3 +27,48 @@
   background-size: cover;
   transition: 1s opacity;
 }
+
+.square-container {
+  position: fixed;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+}
+
+.square {
+  background-color: rgba(37, 37, 37, 0.6);
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+#maintext {
+  text-align: center;
+  color: rgb(207, 207, 207);
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; transform: translateY(-20%);
+  overflow: visible;
+  display: block;
+}
+
+#discord {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-70%);
+
+}
+
+/*#playlist {
+  width: 50%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-70%);
+  height: 60%;
+  overflow: hidden;
+  max-height: 60%;
+  display: block;
+}*/

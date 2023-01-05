@@ -6,6 +6,7 @@
 <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
 
     <div id="overlay">
         <p>Click to Enter</p>
@@ -20,15 +21,27 @@
         });
     </script>
 
-    <!--set the whole background a video-->
     <video loop id="video">
-        <source src="assets/video.mp4" type="video/mp4">
+        <source src="https://cdn.timof121.me/uploads/97e42d256e96ce5151535d19f00ab76ffeb23716377dc7c7a850e40ecf693028.mp4" type="video/mp4">
     </video>
 
-    <div class="square-container" style="position: fixed; top: 20%; left: 15%; width: 70%; height: 60%;">
-        <div class="square" style="background-color: rgba(255, 255, 255, 0.5); width: 100%; height: 100%;">
-          <p>This is some content within the semi-transparent square.</p>
-        </div>
+    <div class="square-container">
+        <div class="square"">
+            <div id="maintext">
+                <br>
+                <h1>Hi 👋</h1>
+                <p>I'm just some random person on the internet</p>
+            </div>       
+
+            <div id="discord">
+                <img src="https://lanyard.cnrad.dev/api/1014218824666591315?borderRadius=5px&animated=true&bg=transparent&hideTimestamp=true&idleMessage=Nothing right now...">
+            </div>
+        <!--
+            <div id="playlist">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5LUymzMxpzMe1rJFEQfYvg?utm_source=generator&theme=0" width="100%" height="359px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+        -->
+        </div> 
     </div>
 
 </body>    
