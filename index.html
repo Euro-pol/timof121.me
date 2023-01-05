@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><3</title>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    <div id="overlay">
+        <p>Click to Enter</p>
+    </div>
+           
+    <script>
+        $(document).ready(function(){
+            $("#overlay").click(function(){
+                $("#overlay").fadeOut(1000);
+                $("#video")[0].play();
+            });
+        });
+    </script>
+
+    <!--set the whole background a video-->
+    <video loop id="video">
+        <source src="assets/video.mp4" type="video/mp4">
+    </video>
+
+    <div class="square-container" style="position: fixed; top: 20%; left: 15%; width: 70%; height: 60%;">
+        <div class="square" style="background-color: rgba(255, 255, 255, 0.5); width: 100%; height: 100%;">
+          <p>This is some content within the semi-transparent square.</p>
+        </div>
+    </div>
+
+</body>    
+</html>
