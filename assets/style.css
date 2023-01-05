@@ -49,8 +49,12 @@
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300; transform: translateY(-20%);
-  overflow: visible;
   display: block;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-10%);
+
 }
 
 #discord {
